@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h2>Result</h2>
+    <p>Unit Price without VAT: <span th:text="${unitPriceWithoutVat}"></span></p>
+    <p>VAT: <span th:text="${VAT}"></span></p>
+    <p>Product + VAT: <span th:text="${vatAmount}"></span></p>
+    <p>Total Price without VAT: <span th:text="${totalPriceWithoutVat}"></span></p>
+    <p>Total VAT: <span th:text="${totalVat}"></span></p>
+    <p>Total Price with VAT: <span th:text="${totalPriceWithVat}"></span></p>
+</body>
+</html>

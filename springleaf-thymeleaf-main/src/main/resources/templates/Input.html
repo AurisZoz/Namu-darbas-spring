@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>VAT Calculation</title>
+</head>
+<body>
+    <h2>Enter Price and Quantity </h2>
+    <form action="/result" method="post">
+        <label for="price">Price with VAT:</label><br>
+        <input type="number" id="price" name="price" required><br>
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" required><br><br>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
